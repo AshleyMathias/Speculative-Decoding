@@ -100,14 +100,23 @@ Let’s learn and build together 🚀
 
 ---
 
-<div align="center"> <br/> 🔗 Connect with me <a href="https://www.linkedin.com/in/ashleymathias10" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Ashley%20Mathias-blue?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<div align="center">
 
+<br/>
+🔗 Connect with me
+<a href="https://www.linkedin.com/in/ashleymathias10" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Ashley%20Mathias-blue?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+   
 <a href="mailto:ashleymathias100@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-ff69b4?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
-
+   
 <a href="https://github.com/AshleyMathias"><img src="https://img.shields.io/badge/GitHub-@AshleyMathias-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
 
 <br/><br/>
 
 ---
 
-<p align="center"> Built with 💻 and ☕ by <strong>Ashley Mathias</strong> </p> </div> ```
+<p align="center">
+  Built with 💻 and ☕ by <strong>Ashley Mathias</strong>
+</p>
+
+
+</div> 
