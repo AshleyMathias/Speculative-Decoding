@@ -1,36 +1,46 @@
-peculative Decoding Playground — Normal vs Draft+Target
+# ⚡ Speculative Decoding Demo — Faster Token Generation with Hugging Face
 
 [![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow.svg?logo=huggingface&logoColor=white)](https://huggingface.co/transformers)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-UI%20Demo-ff4b4b.svg?logo=streamlit&logoColor=white)](https://streamlit.io)
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg?logo=python&logoColor=white)](https://www.python.org)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org)
 [![License](https://img.shields.io/github/license/AshleyMathias/Speculative-Decoding)](LICENSE)
 
-An interactive playground to compare Normal Greedy Decoding vs Speculative Decoding in large language models (LLMs). Built with Hugging Face Transformers, powered by PyTorch, and wrapped in a simple Streamlit UI for fast experimentation.
+An interactive **Speculative Decoding demo** built with Hugging Face Transformers, PyTorch, and Streamlit. It compares **normal greedy decoding** vs **speculative decoding** side by side — so you can see how speculative methods speed up token generation in Large Language Models. 🚀
 
-🚀 Features
+---
 
-Run Normal Greedy decoding with GPT-2 (baseline).
+## 🚀 Features
 
-Run Speculative Decoding (Draft model + Target model acceptance/rejection).
+- Compare **Normal Greedy Decoding** vs **Speculative Decoding**
+- Uses **two models**:  
+  - Draft (small, fast) model  
+  - Target (larger, accurate) model
+- Measure and display **time taken** for both methods
+- Simple **Streamlit UI** for user prompts
+- Works on CPU (learning), but **real speedups appear on GPU**
 
-Compare outputs and time taken for both methods.
+---
 
-Streamlit UI for user prompts → try it out in the browser.
+## 🖼️ Screenshot
 
-Works on CPU (slower) or GPU (much faster 🚀).
+| Streamlit UI |
+|--------------|
+| ![Streamlit Screenshot](Screenshot.png) |
 
-🖼️ Screenshot
-Streamlit Demo
+---
 
-🧱 Tech Stack
+## 🧱 Tech Stack
 
-Hugging Face Transformers
+- `Hugging Face Transformers`
+- `PyTorch`
+- `Streamlit`
+- `Python 3.10+`
 
-PyTorch
+---
 
-Streamlit
+## 🛠️ Installation
 
-Python 3.10+
-
-🛠️ Installation
+```bash
+git clone https://github.com/AshleyMathias/Speculative-Decoding.git
+cd Speculative-Decoding
